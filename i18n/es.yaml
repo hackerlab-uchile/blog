@@ -1,0 +1,17 @@
+- id: get-started
+  translation: "Me interesa"
+
+- id: on-this-page
+  translation: "En esta página"
+
+- id: search-text
+  translation: "Buscar docs..."
+
+- id: 404-title
+  translation: "Página no encontrada"
+
+- id: 404-text
+  translation: "La página que buscas no existe."
+
+- id: browse
+  translation: "Buscar"

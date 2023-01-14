@@ -1,18 +1,36 @@
 <footer class="footer text-muted">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
+      <div class="col-lg-5 text-center">
         <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+          <li class="list-inline-item">
+            {{ if .Site.Params.logo }}
+            <img rel="logo" class="footer-logo light-only" src="{{ .Site.Params.logo }}" />
+            <img rel="logo" class="footer-logo dark-only" src="{{ .Site.Params.logoDark }}" />
+            {{ else }}
+            <p>{{ .Site.Params.Title }}</p>
+            {{ end }}
+            <p class="address">Beauchef 851</p>
+            <p class="address">Of. 222, 2do piso</p>
+            <p class="address">Edificio Norte</p>
+            <p class="address">Santiago, Chile</p>
+
+          </li>
         </ul>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+      <div class="col-lg-5">
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
           {{ end -}}
         </ul>
       </div>
+      <div class="col-lg-5 text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item"><img alt="logo" class="light-only dcc-logo" src="/images/logo-dcc.svg" /></li>
+          <li class="list-inline-item"><img alt="logo" class="dark-only dcc-logo" src="/images/logo-dcc-dark.svg" />
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 </footer>

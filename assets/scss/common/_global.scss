@@ -286,3 +286,40 @@ body {
     opacity: 0;
   }
 }
+
+.dark-only {
+  display: none;
+}
+
+.light-only {
+  display: block;
+}
+
+.dcc-logo {
+  height: 100px;
+}
+
+.fcfm-logo {
+  height: 150px;
+}
+
+.uchile-logo {
+  height: 85px;
+}
+
+.address {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+}
+
+.collaborator-photo {
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin;
+  border: solid;
+  border-color: $primary;
+}

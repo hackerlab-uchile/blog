@@ -1,23 +1,27 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Hackerlab Universidad de Chile"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
+titleAddition = "Laboratorio de hacking y ciberseguridad"
 description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+
+logo = "/images/hackerlab.svg"
+logoDark = "/images/hackerlab-dark.svg"
+lead = "holaa"
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
 images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+ogLocale = "es"
+domainTLD = "hackerlab.cl"
+titleHome = "Hackerlab"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@hackerlabuchile"
+twitterCreator = "@hackerlabuchile"
 
 ## JSON-LD
 # schemaType = "Person"
@@ -43,7 +47,7 @@ schemaSection = "blog"
 siteLinksSearchBox = false
 
 ## Chrome Browser
-themeColor = "#fff"
+themeColor = "#ef167a"
 
 # Images
 quality = 85
@@ -64,11 +68,9 @@ imageAddClass = "img-fluid lazyload blur-up"
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
-# Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "HackerLab Universidad de Chile"
 
 # Alert
 alert = false
@@ -78,10 +80,9 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
-repoHost = "GitHub"
-#repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
+repoHost = "Gitea"
+docsRepo = "https://git.hackerlab.cl//blog"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
 lastMod = false

@@ -2,7 +2,7 @@
 
 // Source: https://material.io/design/color/dark-theme.html
 
-$body-bg-dark: $gray-900;
+$body-bg-dark: $black;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
 
 /*
@@ -12,13 +12,13 @@ $border-dark: $gray-800;
 $body-color-dark: $gray-300;
 $dots-dark: darken($body-color-dark, 50%);
 
-$link-color-dark: $blue-300;
+$link-color-dark: $primary-dark;
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
-$navbar-dark-color:                 $body-color-dark;
-$navbar-dark-hover-color:           $link-color-dark;
-$navbar-dark-active-color:          $link-color-dark;
+$navbar-dark-color: $body-color-dark;
+$navbar-dark-hover-color: $link-color-dark;
+$navbar-dark-active-color: $link-color-dark;
 
 /** Theme styles */
 
@@ -55,7 +55,7 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $navbar-dark-color;
 }
 
-[data-dark-mode] body .show > .btn-doks-light,
+[data-dark-mode] body .show>.btn-doks-light,
 [data-dark-mode] body .btn-doks-light:hover,
 [data-dark-mode] body .btn-doks-light:active {
   color: $link-color-dark;
@@ -83,7 +83,7 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
+  background-color: $body-bg-dark;
   border-bottom: 1px solid $border-dark;
 }
 
@@ -125,8 +125,8 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $navbar-dark-disabled-color;
 }
 
-[data-dark-mode] body .navbar-light .navbar-nav .show > .nav-link,
-[data-dark-mode] body .navbar-light .navbar-nav .active > .nav-link,
+[data-dark-mode] body .navbar-light .navbar-nav .show>.nav-link,
+[data-dark-mode] body .navbar-light .navbar-nav .active>.nav-link,
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link.show,
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link.active {
   color: $navbar-dark-active-color;
@@ -563,7 +563,7 @@ $navbar-dark-active-color:          $link-color-dark;
   background: $body-overlay-dark;
 }
 
-[data-dark-mode] details[open] > summary {
+[data-dark-mode] details[open]>summary {
   border-bottom: 1px solid $border-dark;
 }
 
@@ -579,4 +579,16 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid $body-overlay-dark;
+}
+
+[data-dark-mode] .dark-only {
+  display: block;
+}
+
+[data-dark-mode] .light-only {
+  display: none;
+}
+
+[data-dark-mode] .collaborator-photo {
+  border-color: $primary-dark;
 }

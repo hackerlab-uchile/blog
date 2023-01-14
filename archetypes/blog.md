@@ -9,7 +9,7 @@ weight: 50
 images: []
 categories: []
 tags: []
-contributors: []
+contributors: ["Eduardo"]
 pinned: false
 homepage: false
 ---

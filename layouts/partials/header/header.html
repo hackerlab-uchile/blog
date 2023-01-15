@@ -12,7 +12,7 @@
     <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap"
       aria-label="Main navigation">
 
-      <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
+      <a class="navbar-brand order-0" href="{{ " /" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
         {{ if .Site.Params.logo }}
         <img rel="logo" class="light-only" src="{{ .Site.Params.logo }}" />
         <img rel="logo" class="dark-only" src="{{ .Site.Params.logoDark }}" />
@@ -132,7 +132,7 @@
           <ul class="nav flex-column flex-lg-row">
             {{ range .Site.Menus.social -}}
             <li class="nav-item">
-              <a class="nav-link social-link" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small
+              <a rel="me" class="nav-link social-link" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small
                   class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
             </li>
             {{ end -}}

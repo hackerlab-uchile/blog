@@ -1,8 +1,8 @@
 
-[[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 10
+#[[main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  weight = 10
 
 #[[main]]
 #  name = "Hackbook"
@@ -72,10 +72,10 @@
 #  url = "/proyectos/"
 #  weight = 30
 
-[[footer]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 40
+#[[footer]]
+#  name = "Blog"
+#  url = "/blog/"
+#  weight = 40
 
 #[[footer]]
 #  name = "Hackbook"

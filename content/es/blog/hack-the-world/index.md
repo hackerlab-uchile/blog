@@ -1,16 +1,15 @@
 ---
 title: "Hack the world!"
-description: "¿Un laboratorio de hacking? Acá te explicamos qué es esto."
+description: "¿Un laboratorio de hacking?"
 date: 2023-01-01T09:00:00-03:00
 lastmod: 2023-01-01T09:00:00-03:00
-draft: false
+draft: true
 weight: 50
-images: []
 categories: ["Noticias"]
 tags: ["seguridad", "privacidad", "hacking"]
 contributors: ["Eduardo Riveros"]
+images: ["hack-the-world.jpg"]
 pinned: false
-homepage: true
+homepage: false
 ---
 
-Sii

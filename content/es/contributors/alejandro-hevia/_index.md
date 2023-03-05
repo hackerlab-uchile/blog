@@ -1,6 +1,6 @@
 ---
 title: "Alejandro Hevia"
-excerpt: "Director Académico"
+excerpt: "Co Director"
 image: "alejandro.jpg"
 layout: article-list
 date: 2022-12-23T15:56:22-03:00

@@ -1,6 +1,6 @@
 ---
 title: "Eduardo Riveros Roca"
-excerpt: "Director de Proyectos"
+excerpt: "Co Director"
 image: "eduardo.jpg"
 date: 2022-12-23T15:56:22-03:00
 lastmod: 2022-12-23T15:56:22-03:00

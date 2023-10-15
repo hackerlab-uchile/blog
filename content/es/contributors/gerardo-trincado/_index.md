@@ -1,7 +1,7 @@
 ---
 title: "Gerardo Trincado"
 excerpt: "Memorista"
-image: "gerardo.jpg"
+image: "placeholder.svg"
 date: 2022-12-23T15:56:22-03:00
 lastmod: 2022-12-23T15:56:22-03:00
 draft: false

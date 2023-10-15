@@ -582,7 +582,7 @@ $navbar-dark-active-color: $link-color-dark;
 }
 
 [data-dark-mode] .dark-only {
-  display: block;
+  display: inherit;
 }
 
 [data-dark-mode] .light-only {

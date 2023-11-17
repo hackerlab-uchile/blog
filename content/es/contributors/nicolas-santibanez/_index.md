@@ -1,7 +1,7 @@
 ---
 title: "Nicolás Santibáñez"
 excerpt: "Memorista"
-image: "placeholder.svg"
+image: "nicolas.jpg"
 date: 2022-12-23T15:56:22-03:00
 lastmod: 2022-12-23T15:56:22-03:00
 draft: false

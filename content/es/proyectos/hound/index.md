@@ -17,5 +17,7 @@ Este proyecto considera una reimplementación usando tecnologías web del softwa
 Diverse Hidden IoT Devices in an Unfamiliar Environment".
 
 [Paper de Lumos](https://www.usenix.org/system/files/sec22summer_sharma-rahul.pdf)
+
 [Implementación original](https://github.com/rahul-anand/Lumos)
+
 [Hound](https://github.com/hackerlab-uchile/hound)

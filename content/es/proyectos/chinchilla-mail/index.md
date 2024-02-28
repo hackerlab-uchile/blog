@@ -17,5 +17,6 @@ homepage: false
 _Chinchilla Mail_ es una plataforma abierta que permite a cualquier persona crear correos electrónicos temporales para usar al registrarse en sitios web.
 
 
-[Enlace al sitio](https://chinchillamail.cl/)
-[Enlace al GitHub](https://github.com/hackerlab-uchile/chinchillamail)
+[Sitio](https://chinchillamail.cl/)
+
+[GitHub](https://github.com/hackerlab-uchile/chinchillamail)

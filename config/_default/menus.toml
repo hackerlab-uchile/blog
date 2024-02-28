@@ -1,40 +1,51 @@
+[[docs]]
+name = "intro"
+weight = 10
+identifier = "intro"
+url = "/docs/intro/"
 
-#[[main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  weight = 10
-
-#[[main]]
-#  name = "Hackbook"
-#  url = "/hackbook/"
-#  weight = 20
-
-#[[main]]
-#  name = "Proyectos"
-#  url = "/proyectos/"
-#  weight = 40
+[[docs]]
+name = "pentesting"
+weight = 20
+identifier = "pentesting"
+url = "/docs/pentesting/"
 
 [[main]]
-  name = "El Lab"
+name = "blog"
+url = "/blog/"
+weight = 10
+
+[[main]]
+name = "hackbook"
+url = "/docs/intro"
+weight = 20
+
+[[main]]
+name = "proyectos"
+url = "/proyectos/"
+weight = 40
+
+[[main]]
+  name = "el lab"
   weight = 50
   url = "/el-lab/"
   identifier = "lab"
 
 
 [[main]]
-  name = "Acerca"
+  name = "acerca"
   weight = 60
   url = "/el-lab/"
   parent = "lab"
 
 [[main]]
-  name = "Equipo"
+  name = "equipo"
   weight = 60
-  url = "/contributors/"
+  url = "/equipo/"
   parent = "lab"
 
 [[main]]
-  name = "Divulgación Responsable"
+  name = "divulgación responsable"
   weight = 70
   url = "/divulgacion-responsable/"
   parent = "lab"
@@ -42,7 +53,7 @@
 [[social]]
   name = "Git"
   pre = "<svg width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21v-6m0-6v6m0 0h8a2 2 0 0 0 2-2v-2\"/><circle cx=\"7\" cy=\"6\" r=\"3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/><circle cx=\"17\" cy=\"8\" r=\"3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/></svg>"
-  url = "https://git.hackerlab.cl/"
+  url = "https://github.com/hackerlab-uchile"
   post = "v0.1.0"
   weight = 10
 
@@ -53,31 +64,31 @@
   weight = 20
 
 [[footer]]
-  name = "Equipo"
-  url = "/contributors/"
+  name = "equipo"
+  url = "/equipo/"
   weight = 10
 
 [[footer]]
-  name = "Acerca"
+  name = "acerca"
   weight = 60
   url = "/el-lab/"
 
 [[footer]]
-  name = "Divulgación Responsable"
+  name = "divulgación responsable"
   url = "/divulgacion-responsable/"
   weight = 20
 
-#[[footer]]
-#  name = "Proyectos"
-#  url = "/proyectos/"
-#  weight = 30
+[[footer]]
+name = "proyectos"
+url = "/proyectos/"
+weight = 30
 
-#[[footer]]
-#  name = "Blog"
-#  url = "/blog/"
-#  weight = 40
+[[footer]]
+name = "blog"
+url = "/blog/"
+weight = 40
 
-#[[footer]]
-#  name = "Hackbook"
-#  url = "/hackbook/"
-#  weight = 50
+[[footer]]
+name = "hackbook"
+url = "/docs/intro"
+weight = 50

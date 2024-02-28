@@ -81,7 +81,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "Gitea"
-docsRepo = "https://git.hackerlab.cl//blog"
+docsRepo = "https://github.com/hackerlab-uchile/blog"
 docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
@@ -108,8 +108,3 @@ lastMod = false
   navbarSticky = true
   toTopButton = false
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
-
-[menu]
-  [menu.section]
-    auto = true
-    collapsibleSidebar = true

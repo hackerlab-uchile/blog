@@ -13,6 +13,9 @@ pinned: false
 homepage: false
 ---
 
-Este proyecto considera una reimplementación del software "Lumos" propuesto en el paper ""
+Este proyecto considera una reimplementación usando tecnologías web del software "Lumos" propuesto en el paper "Lumos: Identifying and Localizing
+Diverse Hidden IoT Devices in an Unfamiliar Environment".
 
-[Link a la reimplementación](https://github.com/hackerlab-uchile/hound)
+[Paper de Lumos](https://www.usenix.org/system/files/sec22summer_sharma-rahul.pdf)
+[Implementación original](https://github.com/rahul-anand/Lumos)
+[Hound](https://github.com/hackerlab-uchile/hound)

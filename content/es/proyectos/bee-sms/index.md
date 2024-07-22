@@ -17,4 +17,4 @@ El proyecto Bee-SMS logra utilizar módems USB para crear un dispositivo capaz d
 
 
 [GitHub](https://github.com/hackerlab-uchile/sms-catcher)
-[Download](https://transfer.zip/#t6dtx7GF2-OXszpBnsNLuw3hijANREdvw7wtaRIwxJg,ae64f526-0dfa-4a09-84bc-f91efd79993b,R)
+[Download](https://drive.google.com/file/d/1kiZKPB88U8P0ZIZETvVTaNoMFIpToaTj/view?usp=sharing)
